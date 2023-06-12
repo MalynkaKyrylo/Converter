@@ -3,6 +3,7 @@ package converter;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Converter base converting");
+        System.out.println("Version 1.0");
         double miles = 5;
         double kilometersConv1 = milesToKilometers(miles);
         System.out.println(miles + " миль = " + kilometersConv1 + " километров");
